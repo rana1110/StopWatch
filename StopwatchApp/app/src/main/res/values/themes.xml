@@ -22,4 +22,26 @@
     <style name="Theme.StopwatchApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.StopwatchApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="buttonTheme" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/round_corner_button</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:textSize">@dimen/button_font</item>
+        <item name="android:layout_marginRight">@dimen/button_margin</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textViewTheme" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/time_text_color</item>
+        <item name="android:textSize">@dimen/textview_font</item>
+    </style>
+
+
 </resources>
